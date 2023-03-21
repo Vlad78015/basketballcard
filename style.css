@@ -1,0 +1,46 @@
+body{
+    background-color: #d08c18;
+    color: #000;
+}
+
+h2{
+    border: 1px solid #fff; /* border (bd) */
+    text-align: center;
+}
+
+span{
+    color: coral;
+}
+/* щоб відобразити будь який обєкт контент на сторінці треба задати йому 3 вдастивості - це ширина висота колір фону */
+
+.card {
+    border: 1px solid #fff;
+    height: 600px;
+    width: 400px;
+    margin: 100px 0 0 500px; /* зовнішні відступи (0 - зверху 0 - справа 0 - знизу 0 - зліва) */
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.card-title {
+    color: #000;
+}
+.card-img {
+    width: 200px;
+    margin: 10px 10px 10px 100px;
+    border: 1px solid #000;
+}
+.card-text {
+    margin: 0 90px 10px 93px;
+    border: 2px solid #f60606;
+    color: rgb(151, 78, 25);
+}
+
+.card-border{
+    border: 2px solid #000;
+    margin: 0 20px 0 20px;
+}
+
+.card-border_img{
+    width: 85px;
+    margin: 0 0 0 23px;
+}
